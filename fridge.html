@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid top-container">
+        <div class="row">
+            <div class="col-lg-5">
+                <a href="index.html" id="anchor">
+                    <h1 id="top-haeding">SAYLANI</h1>
+                </a>
+            </div>
+            <div class="col-lg-3 d-none d-sm-block">
+                <a class="icon " href=""><i class="fa fa-2x fa-phone">  03083689852</i></a>
+            </div>
+            <div class="col-lg-3 d-none d-sm-block">
+                <a class="icon" href=""><i class="fa fa-2x fa-envelope">Admin@saylani.com</i></a>
+            </div>
+            <div class="col-lg-1 d-none d-sm-block">
+                <a class="icon" href="cart.html"><i class="fa fa-3x fa-shopping-cart"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 bg-success p-2">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html">Home</a>
+                    <a href="cato.html">Products</a>
+                    <a href="mobile.html">Inspect Items</a>
+                    <a href="cart.html">Cart</a>
+                    <a href="contact.html">Contact</a>
+                </div><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Catagories</span>
+            </div>
+            <div class="col-lg-8 topnav col-md-8 d-none d-sm-block">
+                <div class=" search-container">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide Show -->
+    <section>
+        <img class="mySlides" src="imges/slide-1.jpg" style="width:100%">
+        <img class="mySlides" src="imges/slide-2.jpg" style="width:100%">
+        <img class="mySlides" src="imges/slide-1.jpg" style="width:100%">
+    </section>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col col-md-4">
+                <div class="img-magnifier-container ">
+                    <img id="myimage" class="m-5" src="imges/brown-bear-vector-graphics.jpg" width="70%" height="auto">
+                </div>
+            </div>
+            <div class="col col-md-8">
+                <div>
+                    <h3>FRIDGE</h3>
+                    <hr>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore dicta repudiandae architecto blanditiis quo maiores neque nesciunt culpa ipsum exercitationem.</p>
+                </div><br>
+                <div><span class="border-right p-2"> 
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span></span>
+                    <span class="border-right p-2"> <span class="fa fa-envelope"></span> Review</span>
+                    </span>
+                    <span><span class="fa fa-pencil"> Write Review</span></span>
+                </div><br><br>
+                <div>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">Size</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#home">S</a>
+                            <a href="#about">M</a>
+                            <a href="#contact">L</a>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div>
+                    <h5>Color</h5>
+                    <span class="text-danger">Red <input type="radio" name="" id=""></span> <span class="text-primary">Blue <input type="radio" name="" id=""></span>
+                    <span class="text-dark">Black <input type="radio" name="" id=""></span> <span class="text-dark">White  <input type="radio" name="" id=""></span>
+                </div><br><br>
+                <div><button class="btn bg-success text-white fa fa-opencart"> Add To Cart</button></div><br><br>
+                <div><button class="btn bg-light text-dark fa fa-heart"> Add To Wishlist</button></div>
+                <div><br>
+                    <div class="danger">
+                        <p><span class="fa fa-2x fa-shield"></span> Security Policy (Edit With Customer Reassurance Module)</p>
+                    </div>
+                    <div class="danger">
+                        <p><span class="fa fa-2x fa-truck"></span> Delivery Policy (Edit With Customer Reassurance Module)</p>
+                    </div>
+                    <div class="danger">
+                        <p><span class="fa fa-2x fa-exchange"></span>Return Policy (Edit With Customer Reassurance Module)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="bg-info text-light text-center">YOU MIGHT ALSO LIKE</h1>
+    <div class="container-fluid my-5 ">
+        <div class="row ">
+            <div class="mx-auto">
+                <div class="col-lg-3 col-md-3 col-sm-6 ">
+                    <a href="laptop.html"> <img id="tp" src="imges/brown-bear-printed-sweater.jpg" alt="" style="width: 300px;height: 300px;"></a>
+                </div>
+                <div class="text-center">Laptops <br><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span><br><s>$200</s> $150</div>
+            </div>
+            <div class="mx-auto">
+                <div class="col-lg-3 col-md-3 col-sm-6 ">
+                    <a href="fridge.html"><img id="tp" src="imges/brown-bear-vector-graphics.jpg" alt="" style="width: 300px;height: 300px;"></a>
+                </div>
+                <div class="text-center">Fridge <br><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span><br><s>$300</s> $250</div>
+            </div>
+            <div class="mx-auto">
+                <div class="col-lg-3 col-md-3 col-sm-6 ">
+                    <a href="mobile.html"><img id="tp" src="imges/mug-today-is-a-good-day.jpg" alt="" style="width: 300px;height: 300px;"></a>
+                </div>
+                <div class="text-center">Mobiles <br><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span><br><s>$80</s> $65</div>
+            </div>
+            <div class="mx-auto">
+                <div class="col-lg-3 col-md-3 col-sm-6 ">
+                    <a href="speaker.html"><img id="tp" src="imges/mug-the-adventure-begins.jpg" alt="" style="width: 300px;height: 300px;"></a>
+                </div>
+                <div class="text-center">LED`s <br><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span><br><s>$300</s> $250</div>
+            </div>
+        </div>
+    </div>
+
+
+    <h1 class="text-center" id="top-haeding">SAYLANI</h1>
+    <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus modi ipsum numquam quas quo. Consectetur magni perferendis natus aspernatur, dicta quas cumque. Quidem obcaecati, accusantium consequuntur asperiores magnam voluptates modi!</p>
+    <div class="container-fluid bg-light">
+        <div class="row ">
+            <div class="col-md-12 text-center">
+                <span class="rounded-circle bg-success p-3 m-4 text-light fa fa-2x fa-facebook"></span>
+                <span class="rounded-circle bg-danger p-3 m-4 text-light fa fa-2x fa-instagram"></span>
+                <span class="rounded-circle bg-primary p-3 m-4 text-light fa fa-2x fa-whatsapp"></span>
+                <span class="rounded-circle bg-secondary p-3 m-4 text-light fa fa-2x fa-youtube"></span>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid  d-none d-sm-block">
+        <div class="row p-5">
+            <div class="col-md-3 p-2">
+                <h5>STORE INFORMATION</h5><br><span class="fa  fa-location-arrow"></span> Demo Shop <br> United States <br><br> <span class="fa fa-2x fa-mobile"></span> +91 23654987 <br><br> <span class="fa fa-envelope"></span> admin@gmail.com
+            </div>
+            <div class="col-md-3 p-2">
+                <H5>YOUR ACCOUNT</H5><br>&#8608; Personal Info <br>&#8608; Orders <br>&#8608;Credits Slips <br>&#8608;Addresses <br>My Wishlists
+            </div>
+            <div class="col-md-3 p-2">
+                <H5>PRODUCTS</H5><br> &#8608;Prices drop <br>&#8608; New products <br>&#8608; Best sales <br>&#8608; Contact us <br> &#8608;Sitemap
+            </div>
+            <div class="col-md-3 p-2">
+                <H5>OUR COMPANY</H5><br>&#8608; Delivery <br> &#8608;Legal Notice <br> &#8608;About us <br>&#8608; Secure payment <br> &#8608;My account
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row bg-dark text-light">
+            <div class="col-md-3 py-3">
+                <p class="border-right"><span class="fa fa-2x fa-globe"></span> Free World Wide Delivery</p>
+            </div>
+            <div class="col-md-3 py-3">
+                <p class="border-right"><span class="fa fa-2x fa-gift"></span> Free Gift Voucher</p>
+            </div>
+            <div class="col-md-3 py-3">
+                <p class="border-right"><span class="fa fa-2x fa-tv"></span> Money Back Guarntee</p>
+            </div>
+            <div class="col-md-3 py-3">
+                <p class=""><span class="fa fa-2x fa-user"></span> 24x7 Support Assisstance</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <button class="open-button" onclick="openForm()"><span class="fa fa-envelope"></span > Help / Chat</button>
+
+    <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h1>Chat</h1>
+
+            <label for="msg"><b>Message</b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+
+
+        // Automatic Slideshow - change image every 3 seconds
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides ");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none ";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block ";
+            setTimeout(carousel, 3000);
+        }
+        /* Initiate Magnify Function
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            with the id of the image, and the strength of the magnifier glass:*/
+        magnify("myimage", 3);
+
+        function magnify(imgID, zoom) {
+            var img, glass, w, h, bw;
+            img = document.getElementById(imgID);
+            /*create magnifier glass:*/
+            glass = document.createElement("DIV");
+            glass.setAttribute("class", "img-magnifier-glass");
+            /*insert magnifier glass:*/
+            img.parentElement.insertBefore(glass, img);
+            /*set background properties for the magnifier glass:*/
+            glass.style.backgroundImage = "url('" + img.src + "')";
+            glass.style.backgroundRepeat = "no-repeat";
+            glass.style.backgroundSize = (img.width * zoom) + "px " + (img.height * zoom) + "px";
+            bw = 3;
+            w = glass.offsetWidth / 2;
+            h = glass.offsetHeight / 2;
+            /*execute a function when someone moves the magnifier glass over the image:*/
+            glass.addEventListener("mousemove", moveMagnifier);
+            img.addEventListener("mousemove", moveMagnifier);
+            /*and also for touch screens:*/
+            glass.addEventListener("touchmove", moveMagnifier);
+            img.addEventListener("touchmove", moveMagnifier);
+
+            function moveMagnifier(e) {
+                var pos, x, y;
+                /*prevent any other actions that may occur when moving over the image*/
+                e.preventDefault();
+                /*get the cursor's x and y positions:*/
+                pos = getCursorPos(e);
+                x = pos.x;
+                y = pos.y;
+                /*prevent the magnifier glass from being positioned outside the image:*/
+                if (x > img.width - (w / zoom)) {
+                    x = img.width - (w / zoom);
+                }
+                if (x < w / zoom) {
+                    x = w / zoom;
+                }
+                if (y > img.height - (h / zoom)) {
+                    y = img.height - (h / zoom);
+                }
+                if (y < h / zoom) {
+                    y = h / zoom;
+                }
+                /*set the position of the magnifier glass:*/
+                glass.style.left = (x - w) + "px";
+                glass.style.top = (y - h) + "px";
+                /*display what the magnifier glass "sees":*/
+                glass.style.backgroundPosition = "-" + ((x * zoom) - w + bw) + "px -" + ((y * zoom) - h + bw) + "px";
+            }
+
+            function getCursorPos(e) {
+                var a, x = 0,
+                    y = 0;
+                e = e || window.event;
+                /*get the x and y positions of the image:*/
+                a = img.getBoundingClientRect();
+                /*calculate the cursor's x and y coordinates, relative to the image:*/
+                x = e.pageX - a.left;
+                y = e.pageY - a.top;
+                /*consider any page scrolling:*/
+                x = x - window.pageXOffset;
+                y = y - window.pageYOffset;
+                return {
+                    x: x,
+                    y: y
+                };
+            }
+        }
+
+        /* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+    </script>
+
+    <!-- js links -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>
